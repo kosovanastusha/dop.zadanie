@@ -1,6 +1,5 @@
-language: cpp
-
-compiler:
-  - gcc
-
-os: windows
+language: c
+script: 
+- make
+- ./bin/tests
+- gcc -Wall hello_world.c -o hello

@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-double poisk_korney(double a, double b, double c)
+double koren`(double a, double b, double c)
 {
 	double d, x1=0, x2=0;
 	if (a == 0) {
@@ -34,6 +34,6 @@ int main()
     printf("Enter a: "); scanf("%lf", &a);
     printf("Enter b: "); scanf("%lf", &b);
     printf("Enter c: "); scanf("%lf", &c);
-    poisk_korney(a, b, c);
+    koren`(a, b, c);
     return 0;
 }
