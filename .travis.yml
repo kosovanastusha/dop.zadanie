@@ -2,10 +2,7 @@ language: c
 script: 
 - make
 - ./bin/tests
-<<<<<<< HEAD
 - gcc -Wall main.c -o hello
-||||||| merged common ancestors
 - gcc -Wall hello_world.c -o hello
-=======
 - gcc -Wall main.c -o main
->>>>>>> back
+
