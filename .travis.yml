@@ -2,4 +2,4 @@ language: c
 script: 
 - make
 - ./bin/tests
-- gcc -Wall hello_world.c -o hello
+- gcc -Wall main.c -o hello
